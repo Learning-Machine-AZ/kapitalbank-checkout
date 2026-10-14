@@ -12,18 +12,7 @@ PHP >= 8.1. MIT licensed.
 composer require learning-machine/kapitalbank-checkout
 ```
 
-Until the package is listed on Packagist, add the GitHub repository first:
-
-```json
-{
-    "repositories": [
-        { "type": "vcs", "url": "https://github.com/Learning-Machine-AZ/kapitalbank-checkout.git" }
-    ],
-    "require": {
-        "learning-machine/kapitalbank-checkout": "^0.2"
-    }
-}
-```
+The package is on [Packagist](https://packagist.org/packages/learning-machine/kapitalbank-checkout).
 
 A PSR-18 client is needed: Guzzle (`guzzlehttp/guzzle`, already present in Laravel) is used
 automatically; otherwise install `php-http/discovery` + any PSR-18 client, or pass one.
